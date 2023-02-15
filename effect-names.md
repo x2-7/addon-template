@@ -1,4 +1,8 @@
-﻿| エフェクト名 | 効果 |
+﻿[れどめ](README.md)
+
+[template](template.jsonc)
+
+| エフェクト名 | 効果 |
 |---|---|
 | slowness | 鈍化 |
 | speed | 速度上昇 |
