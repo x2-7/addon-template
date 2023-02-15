@@ -1,0 +1,36 @@
+﻿{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+        "description": {
+            "identifier": "x128:{固有ID}" //! "x128"は名前空間名, 統一しないといけないから変更しない
+        },
+
+        "components": {
+            "minecraft:display_name": {
+                "value": "{アイテムの表示名}" 
+            },
+            "minecraft:use_duration": 0.05,
+            "minecraft:cooldown": { // クールダウン
+                "duration": 8 // 秒数
+            },
+            "minecraft:max_stack_size": 1, // 1スタックの最大個数
+            "minecraft:icon": { // アイテムのアイコン
+                "texture": "" // "item_texture.json"で定義したもの、パスではない
+            },
+            "minecraft:foil": false, // エンチャント効果(きらきらさせるかどうか)
+            "minecraft:use_animation": "drink",
+            "minecraft:explodable": false,
+            "minecraft:food": {
+                "nutrition": 0, // 満腹度回復力
+                "effects": [ // 効果
+                    {
+                        "name": "{エフェクト名}", //! エフェクト名は"template/efect-name.md"を参照
+                        "chance": 1.0, // エフェクトが掛かる確率
+                        "duration": 120, // 効果時間(tick), 1秒20tick
+                        "amplifier": 5 // レベル
+                    }
+                ]
+            }
+        }
+    }
+}
