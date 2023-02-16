@@ -7,7 +7,7 @@
 | slowness | 鈍化 |
 | speed | 速度上昇 |
 | haste | 採掘速度上昇 |
-| mining_fatique | 弱体化 |
+| mining_fatique | 採掘速度低下 |
 | strength | 攻撃力上昇 |
 | instant_health | アンデッド特攻? |
 | instant_damage | アンデッド弱化? |
