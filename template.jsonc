@@ -30,7 +30,8 @@
                         "amplifier": 5 // レベル
                     }
                 ]
-            }
+            },
+            "minecraft:"
         }
     }
 }
