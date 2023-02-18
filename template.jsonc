@@ -31,7 +31,18 @@
                     }
                 ]
             },
-            "minecraft:"
+            "minecraft:projectile": { // 投げ物
+                "splashPotion": true, // 投げ物扱いするかどうか
+                "splashRange": 4 // スプラッシュポーションの効果範囲
+            },
+            "minecraft:throwable": {
+                "do_swing_animation" : false, // なげるアニメーション
+                "launch_power_scale" : 1.0,
+                "max_draw_duration" : 0.0,
+                "max_launch_power" : 1.0,
+                "min_draw_duration" : 0.0,
+                "scale_power_by_draw_duration" : false
+            }
         }
     }
 }
